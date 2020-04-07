@@ -17,7 +17,7 @@ using TeensHub.Services;
 
 namespace TeensHub.Controllers
 {
- // [Authorize]
+  [Authorize]
   [Route("[controller]/[action]")]
   public class AccountController : Controller
   {
